@@ -1,0 +1,156 @@
+# Project information
+site_name: My notes 🧑🏻‍💻
+site_url: https://niteshKrr.github.io/My_notes
+site_author: Nitesh Kumar
+site_description: >-
+  This is a collection of notes on Computer Science concepts and interview questions for quick revision.
+# Repository
+repo_name: niteshKrr/My_notes
+repo_url: https://github.com/niteshKrr/My_notes
+
+# Copyright
+copyright: Copyright &copy; 2024 Nitesh Kumar
+
+extra_css:
+  - stylesheets/my-style.css
+
+# Configuration
+theme:
+  name: material
+  features:
+    # - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    # - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections # comment this if you want `navigation expansion and collapse`
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: images/assets/icon.png
+  logo: images/assets/icon.png
+
+# Additional configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/deependujha
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/deependu__
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/deependu_jha
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - Operating Systems:
+    - Home: 01-os/index.md
+    - Basic Concepts:
+        - Introduction to OS: 01-os/01-Basic-Concepts/01-introduction-to-os.md
+        - Types of OS: 01-os/01-Basic-Concepts/02-types-of-os.md
+        - multi-tasking Vs multi-threading: 01-os/01-Basic-Concepts/03-multi-tasking-vs-multi-threading.md
+        - Components of OS: 01-os/01-Basic-Concepts/04-components-of-os.md
+        - System Calls: 01-os/01-Basic-Concepts/05-system-calls.md
+        - How OS boots up: 01-os/01-Basic-Concepts/06-how-operating-system-boots-up.md
+        - 32 Bit Vs 64 Bit: 01-os/01-Basic-Concepts/07-32-Bit_vs_64-Bit-os.md
+        - Different storage devices: 01-os/01-Basic-Concepts/08-different-STORAGES-used-in-computers.md
+    - Process Management:
+        - Introduction to Process Management: 01-os/02-process-management/01-intro-to-process-management.md
+        - Process States & Process Queues: 01-os/02-process-management/02-process-state-n-process-queues.md
+        - Swapping, Context Switching, Orphan & Zombie Process: 01-os/02-process-management/03-swapping-context-switching-orphan-n-zombie-process.md
+        - Process Scheduling:
+          - Introduction to Process Scheduling: 01-os/02-process-management/04-process-scheduling/01-introduction-to-process-scheduling.md
+          - FCFS & Convoy Effect: 01-os/02-process-management/04-process-scheduling/02-fcfs-n-convoy-effect.md
+          - SJF, Priority Scheduling & Round Robin: 01-os/02-process-management/04-process-scheduling/03-sjf-priority-scheduling-round-robing.md
+          - Multi-Level Queue & Multi-Level Feedback Queue: 01-os/02-process-management/04-process-scheduling/04-mlq-n-mlfq.md
+          - Comparison b/w different scheduling algorithms: 01-os/02-process-management/04-process-scheduling/05-comparison-between-process-scheduling-algos.md
+        - Concurrency & Deadlocks:
+          - Introduction to Concurrency: 01-os/02-process-management/05-concurrency-n-deadlocks/01-intro-to-concurrency.md
+  
+  - dsa:
+    - xyz: 01-dsa/index.md
+    - Graph:
+      - Intro:
+        - bfs: 01-dsa/01-graph/intro/bfs.md
+    - A: 01-dsa/a.md
+    - B: 01-dsa/b.md
