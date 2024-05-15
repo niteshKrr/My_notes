@@ -28,7 +28,9 @@ Graph is a non-linear data structure consisting of vertices and edges. The verti
                 unordered_map<int, list<int>> adj;
 
             void addEdge(int u, int v, bool direction)
-            {
+            {   
+                // direction 0 means undirected graph
+                // direction 1 means directed graph
                 adj[u].push_back(v);
                 if(direction == 0)
                 {

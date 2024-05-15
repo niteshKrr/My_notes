@@ -131,6 +131,9 @@ nav:
       - Traversal technique:
         - DFS: 01-dsa/01-graph/traversal_technique/dfs.md
         - BFS: 01-dsa/01-graph/traversal_technique/bfs.md
+      - Cycle detection:
+        - Detect Cycle in Undirected Graph (BFS & DFS): 01-dsa/01-graph/cycle_detection/in_undirected_using_bfs_dfs.md
+        - Detect Cycle in directed Graph (BFS & DFS): 01-dsa/01-graph/cycle_detection/in_directed_using_bfs_dfs.md
 
     
     
