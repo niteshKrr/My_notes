@@ -76,44 +76,55 @@ O(N) + O(N) ~ O(2N), O(N) for the in-degree array, and O(N) for the queue data s
 
 
 ```cpp
-
-bool dfs_recursive_cyclic(vector<int> adj_list[], int n, bool visited[], bool dfs_visited[], int node){
-  visited[node]=true;
-  dfs_visited[node]=true;
-
-  for(auto&e:adj_list[node]){
-    if(visited[e]==false){
-      bool return_val = dfs_recursive_cyclic(adj_list, n, visited, dfs_visited,e);
-      if(return_val==true)return true;
+class Solution{
+public:
+    
+    bool detectCycle(int start , vector<int> &vis , vector<int> &dfs_vis , vector<int> adj[]){
+        
+        vis[start] = 1;
+        dfs_vis[start] = 1;
+        for(auto it : adj[start]){
+            if(vis[it] == 0){
+                bool return_val = detectCycle(it , vis , dfs_vis , adj);
+                if(return_val == true){
+                    return true;
+                }
+            }
+            else if(dfs_vis[it] == 1){
+                return true;
+            }
+        }
+        dfs_vis[start] = 0;
+        
+        return false;
     }
-    else if(dfs_visited[e]==true){
-      return true;
+    
+    bool isCyclic(int V, vector<int> adj[]) {
+        
+        vector<int> vis(V,0);
+        vector<int> dfs_vis(V,0);
+        
+        for(int i = 0 ; i < V ; i++){
+            if(vis[i] == 0){
+                bool cycle = detectCycle(i , vis , dfs_vis , adj);
+                if(cycle == true){
+                    return true;
+                }
+            }
+        }
+        
+        return false;
     }
-  }
-  dfs_visited[node]=false;
-  return false;
-}
-
-int detectCycleInDirectedGraph(int n, vector < pair < int, int >> & edges) {
-  // Write your code here.
-  vector<int> adj_list[n+1];
-  for(auto &e:edges){
-    int x= e.first;
-    int y= e.second;
-    adj_list[x].push_back(y);
-  }
-
-  bool visited[n+1]={false};
-
-  for(int i=0;i<n;i++){
-    if(visited[i]==true)continue;
-    bool dfs_visited[n+1]={false};
-    bool return_val = dfs_recursive_cyclic(adj_list, n+1, visited, dfs_visited,i);
-    if(return_val==true)return true;
-  }
-  return false;
-
-}
-
+};
 
 ```
+
+#### Time Complexity
+
+O(V+E), where V = no. of nodes and E = no. of edges. This is a simple DFS algorithm.
+
+#### Space Complexity
+
+O(N) + O(N) + 0(N) ~ O(3N), 0(N) visited array, 0(N) for dfs_visited array and O(N) Space for recursive stack space, .
+
+
