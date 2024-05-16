@@ -134,6 +134,10 @@ nav:
       - Cycle detection:
         - Detect Cycle in Undirected Graph (BFS & DFS): 01-dsa/01-graph/cycle_detection/in_undirected_using_bfs_dfs.md
         - Detect Cycle in Directed Graph (BFS & DFS): 01-dsa/01-graph/cycle_detection/in_directed_using_bfs_dfs.md
-
-    
-    
+      - Topological & Bipartite:
+        - Topological Sort (BFS & DFS): 01-dsa/01-graph/topological_bipartite/topological.md
+        - Bipartite using (BFS & DFS): 01-dsa/01-graph/topological_bipartite/bipartite.md
+      - Important Algos:
+        - Kosaraju's Algorithm: 01-dsa/01-graph/important_algos/kosaraju.md
+        - Dijkstra's Algorithm: 01-dsa/01-graph/important_algos/Dijkstra.md
+        - Bellman Ford Algorithm: 01-dsa/01-graph/important_algos/Bellman_Ford.md
