@@ -141,3 +141,9 @@ nav:
         - Kosaraju's Algorithm: 01-dsa/01-graph/important_algos/kosaraju.md
         - Dijkstra's Algorithm: 01-dsa/01-graph/important_algos/Dijkstra.md
         - Bellman Ford Algorithm: 01-dsa/01-graph/important_algos/Bellman_Ford.md
+        - Floyd Warshall Algorithm: 01-dsa/01-graph/important_algos/Floyd_Warshall.md
+      - Minimum Spanning Tree:
+        - Introduction(MST): 01-dsa/01-graph/Minimum_Spanning_Tree/intro.md
+        - Prim's Algorithm: 01-dsa/01-graph/Minimum_Spanning_Tree/Prims_Algorithm.md
+        - Disjoint set union (by Rank & size): 01-dsa/01-graph/Minimum_Spanning_Tree/Disjoint_set_union.md
+        - Kruskal's Algorithm: 01-dsa/01-graph/Minimum_Spanning_Tree/Kruskals_Algorithm.md

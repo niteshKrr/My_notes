@@ -13,13 +13,14 @@ Given a weighted graph and a source vertex in the graph, find the shortest paths
 
 ---
 
-### Using Priority Queue
-
 
 !!! tip "Why priority queue is preferred over queue?"
 
     * The only difference between a **queue** and a **priority** queue is that we have to traverse all connected nodes of a current node and find the minimum among them when we use a **normal queue** which takes time of **O(V)**. But using the priority queue we can optimize it to O(log V).
     * The **Time Complexity** of Dijkstra’s Algorithm using a normal queue is O(V2).
+
+
+### Code
 
 
 ```cpp
