@@ -1,74 +1,7 @@
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
----
-
-## Code
-
-```cpp
-
-#include <bits/stdc++.h>
-using namespace std;
-
-int main(){
-    cout<<"Hello world";
-
-    return 0;
-}
-
-```
-
----
-
-## Admonitions
-
-!!! note "Phasellus posuere"
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+# Welcome to My Notes :bulb:
 
 
-??? info
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-
-
-???+ warning
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-
-
-
-!!! danger
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-
-
----
-
-## Content tabs
+![loading...](./images/dp-photoaidcom-cropped.jpeg)
 
 === "C"
 
@@ -85,9 +18,15 @@ int main(){
 
     ``` c++
     #include <iostream>
+    using namespace std;
 
     int main(void) {
-      std::cout << "Hello world!" << std::endl;
+      cout << "Hello world!" <<endl;
       return 0;
     }
     ```
+
+
+---
+
+🔥 🚀
