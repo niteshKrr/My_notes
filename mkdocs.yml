@@ -147,3 +147,5 @@ nav:
         - Prim's Algorithm: 01-dsa/01-graph/Minimum_Spanning_Tree/Prims_Algorithm.md
         - Disjoint set union (by Rank & size): 01-dsa/01-graph/Minimum_Spanning_Tree/Disjoint_set_union.md
         - Kruskal's Algorithm: 01-dsa/01-graph/Minimum_Spanning_Tree/Kruskals_Algorithm.md
+      - Important Questions:
+        - questions: 01-dsa/01-graph/questions/index.md
