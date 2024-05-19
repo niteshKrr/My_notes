@@ -149,3 +149,8 @@ nav:
         - Kruskal's Algorithm: 01-dsa/01-graph/Minimum_Spanning_Tree/Kruskals_Algorithm.md
       - Important Questions:
         - questions: 01-dsa/01-graph/questions/index.md
+
+    - Dynamic Programming:
+      - Introduction to DP: 01-dsa/01-dp/index.md
+      - 1D_DP:
+        - 1d: 01-dsa/01-dp/1d-dp/1d.md
