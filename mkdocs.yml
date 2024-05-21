@@ -151,6 +151,6 @@ nav:
         - questions: 01-dsa/01-graph/questions/index.md
 
     - Dynamic Programming:
-      - Introduction to DP: 01-dsa/01-dp/index.md
-      - 1D_DP:
-        - 1d: 01-dsa/01-dp/1d-dp/1d.md
+      - Home: 01-dsa/01-dp/index.md
+      - Introduction to DP: 01-dsa/01-dp/introduction.md
+      - 1D_DP: 01-dsa/01-dp/1d-dp/1d.md
