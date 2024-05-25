@@ -61,8 +61,8 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: images/assets/icon.png
-  logo: images/assets/icon.png
+  favicon: images/assets/touch.png
+  logo: images/assets/note.png
 
 # Additional configuration
 extra:
