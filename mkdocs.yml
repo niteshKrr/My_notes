@@ -157,3 +157,4 @@ nav:
         - 1D_DP: 01-dsa/01-dp/categorize_dp/1d.md
         - 2D_DP and DP on Grids: 01-dsa/01-dp/categorize_dp/2d.md
         - 3D_DP: 01-dsa/01-dp/categorize_dp/3d.md
+        - DP on Subsequences/Subset: 01-dsa/01-dp/categorize_dp/subsequences_subset.md
