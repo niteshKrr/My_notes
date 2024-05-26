@@ -153,5 +153,7 @@ nav:
     - Dynamic Programming:
       - Home: 01-dsa/01-dp/index.md
       - Introduction to DP: 01-dsa/01-dp/introduction.md
-      - 1D_DP: 01-dsa/01-dp/1d-dp/1d.md
-      - 2D_DP: 01-dsa/01-dp/1d-dp/2d.md
+      - Categorize DP:
+        - 1D_DP: 01-dsa/01-dp/categorize_dp/1d.md
+        - 2D_DP and DP on Grids: 01-dsa/01-dp/categorize_dp/2d.md
+        - 3D_DP: 01-dsa/01-dp/categorize_dp/3d.md
