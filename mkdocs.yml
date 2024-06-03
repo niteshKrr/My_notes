@@ -126,6 +126,15 @@ nav:
   
   - DSA:
     - Welcome to DSA: 01-dsa/index.md
+
+    - Linked List:
+      - Home: 01-dsa/linked_list/index.md
+      - Introduction: 01-dsa/linked_list/introduction.md
+      - Types Of Linked List:
+        - Singly Linked List: 01-dsa/linked_list/categorize_linked_list/singly_ll.md
+        - Doubly Linked List: 01-dsa/linked_list/categorize_linked_list/doubly_ll.md
+        - Circular Linked List: 01-dsa/linked_list/categorize_linked_list/circular_ll.md
+
     - Graph:
       - Introduction to Graphs: 01-dsa/01-graph/index.md
       - Traversal technique:
