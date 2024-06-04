@@ -308,6 +308,50 @@ It is the **simplest** type of linked list in which **every node** contains some
 
     ```
 
+---
+
+🥇 🥇 🥇
+
+
+### Other Important Questions List
+
+??? tip "Important Questions List"
+
+    * <a href="https://leetcode.com/problems/middle-of-the-linked-list/description/" target="_blank">Middle of the Linked List (leetcode)</a>
+
+    * <a href="https://leetcode.com/problems/linked-list-cycle/description/" target="_blank">Linked List cycle (leetcode)</a>
+
+    * <a href="https://leetcode.com/problems/linked-list-cycle-ii/description/" target="_blank">Linked List cycle II (leetcode)</a>
+
+    * <a href="https://www.geeksforgeeks.org/problems/find-length-of-loop/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-length-of-loop" target="_blank">Find length of Loop (gfg)</a>
+
+
+    * <a href="https://leetcode.com/problems/palindrome-linked-list/description/" target="_blank">Check if LL is palindrome or not (leetcode)</a>
+
+
+    * <a href="https://leetcode.com/problems/odd-even-linked-list/description/" target="_blank">Segrregate odd and even nodes in LL (leetcode)</a>
+    
+
+    * <a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/" target="_blank">Remove Nth node from the back of the LL (leetcode)</a>
+
+
+    * <a href="https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/" target="_blank">Delete the middle node of LL (leetcode)</a>
+
+
+    * <a href="https://leetcode.com/problems/sort-list/description/" target="_blank">Sort LL (leetcode)</a>
+
+
+    * <a href="https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=given-a-linked-list-of-0s-1s-and-2s-sort-it" target="_blank">Given a linked list of 0s, 1s and 2s, sort it (gfg)</a>
+
+
+    * <a href="https://leetcode.com/problems/intersection-of-two-linked-lists/description/" target="_blank">Find the intersection point of LL (leetcode)</a>
+
+
+    * <a href="https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=add-1-to-a-number-represented-as-linked-list" target="_blank">Add 1 to a number represented as linked list (gfg)</a>
+
+
+    * <a href="https://leetcode.com/problems/add-two-numbers/description/" target="_blank">Add two numbers in LL (leetcode)</a>
+
 
 
 💯 🔥 🚀
