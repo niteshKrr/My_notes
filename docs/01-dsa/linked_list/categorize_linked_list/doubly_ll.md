@@ -260,6 +260,28 @@ A **doubly linked** list or a **two-way** linked list is a more complex type of 
     ```
 
 
+---
+
+🥇 🥇 🥇
+
+
+### Other Important Questions List
+
+??? tip "Important Questions List"
+
+
+    * <a href="https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-pairs-with-given-sum-in-doubly-linked-list" target="_blank">Find pairs with given sum in doubly linked list (gfg)</a>
+
+
+    * <a href="https://www.geeksforgeeks.org/problems/remove-duplicates-from-a-sorted-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=remove-duplicates-from-a-sorted-doubly-linked-list" target="_blank">Remove duplicates from a sorted doubly linked list (gfg)</a>
+
+
+    * <a href="https://www.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list" target="_blank">Delete all occurrences of a given key in a doubly linked list (gfg)</a>
+
+
+    * <a href="https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/" target="_blank">Flatten a Multilevel Doubly Linked List (leetcode)</a>
+    
+
 
 
 💯 🔥 🚀
