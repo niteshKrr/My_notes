@@ -127,6 +127,11 @@ nav:
   - DSA:
     - Welcome to DSA: 01-dsa/index.md
 
+    - Stack & Queue:
+      - Home: 01-dsa/stack_queue/index.md
+      - Stack: 01-dsa/stack_queue/categorize/stack.md
+      - Queue: 01-dsa/stack_queue/categorize/queue.md
+
     - Linked List:
       - Home: 01-dsa/linked_list/index.md
       - Introduction: 01-dsa/linked_list/introduction.md
