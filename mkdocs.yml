@@ -132,6 +132,7 @@ nav:
       - Introduction: 01-dsa/binary_search/introduction.md
       - Categorize Binary Search:
         - Binary Search on 1D Arrays: 01-dsa/binary_search/categorize_bs/bs_on_1d_array.md
+        - Binary Search on Answers: 01-dsa/binary_search/categorize_bs/bs_on_answers.md
 
 
     - Stack & Queue:
