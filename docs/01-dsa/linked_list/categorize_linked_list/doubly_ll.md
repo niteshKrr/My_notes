@@ -260,6 +260,105 @@ A **doubly linked** list or a **two-way** linked list is a more complex type of 
     ```
 
 
+??? danger "Least Recently Used (LRU) cache  V.V.I"
+
+    * <a href="https://leetcode.com/problems/lru-cache/description/" target="_blank">LRU Cache (leetcode)</a>
+
+
+    ---
+
+    <a href="https://www.youtube.com/watch?v=xDEuM5qa0zg&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=76" target="_blank">Striver LRU explanation video :video_camera:</a>
+
+    If you are unable to do this question then first go through above video and then try to understand the below code.
+
+    ---
+
+
+    ```cpp
+
+    class LRUCache {
+        public:
+        class Node{
+            public:
+                int key;
+                int val;
+                Node* next;
+                Node* prev;
+
+                Node(int key , int val){
+                    this ->key = key;
+                    this ->val = val;
+                    next = NULL;
+                    prev = NULL;
+                }
+        };
+
+        Node* head = new Node(-1 , -1);
+        Node* tail = new Node(-1 , -1);
+
+        int cap;
+        unordered_map<int,Node*> mp;
+
+        LRUCache(int capacity) {
+            cap = capacity;
+            head ->next = tail;
+            tail ->prev = head;
+        }
+
+        void addNode(Node* newNode){
+            Node* temp = head ->next;
+            newNode ->next = temp;
+            temp ->prev = newNode;
+
+            newNode ->prev = head;
+            head ->next = newNode;
+        }
+
+        void deleteNode(Node* newNode){
+            Node* nextt = newNode ->next;
+            Node* prevv = newNode ->prev;
+
+            nextt ->prev = prevv;
+            prevv ->next = nextt;
+        }
+        
+        int get(int key) {
+
+            if(mp.find(key) != mp.end()){
+                Node* resNode = mp[key];
+                int ans = resNode->val;
+                mp.erase(key);
+                deleteNode(resNode);
+                addNode(resNode);
+
+                mp[key] = head->next;
+                return ans;
+            }
+            return -1;
+        }
+        
+        void put(int key, int value) {
+            if(mp.find(key) != mp.end()){
+                Node* curr = mp[key];
+                mp.erase(key);
+                deleteNode(curr);
+            }
+            if(mp.size() == cap){
+                mp.erase(tail ->prev ->key);
+                deleteNode(tail ->prev);
+            }
+
+            addNode(new Node(key , value));
+            mp[key] = head ->next;
+        }
+    };
+
+
+
+    ```
+
+
+
 ---
 
 🥇 🥇 🥇

@@ -127,6 +127,13 @@ nav:
   - DSA:
     - Welcome to DSA: 01-dsa/index.md
 
+    - Binary Search:
+      - Home: 01-dsa/binary_search/index.md
+      - Introduction: 01-dsa/binary_search/introduction.md
+      - Categorize Binary Search:
+        - Binary Search on 1D Arrays: 01-dsa/binary_search/categorize_bs/bs_on_1d_array.md
+
+
     - Stack & Queue:
       - Home: 01-dsa/stack_queue/index.md
       - Stack: 01-dsa/stack_queue/categorize/stack.md
