@@ -125,59 +125,70 @@ nav:
   - Home: index.md
   
   - DSA:
-    - Welcome to DSA: 01-dsa/index.md
+    - Welcome to DSA: dsa/index.md
 
     - Binary Search:
-      - Home: 01-dsa/binary_search/index.md
-      - Introduction: 01-dsa/binary_search/introduction.md
+      - Home: dsa/binary_search/index.md
+      - Introduction: dsa/binary_search/introduction.md
       - Categorize Binary Search:
-        - Binary Search on 1D Arrays: 01-dsa/binary_search/categorize_bs/bs_on_1d_array.md
-        - Binary Search on Answers: 01-dsa/binary_search/categorize_bs/bs_on_answers.md
+        - Binary Search on 1D Arrays: dsa/binary_search/categorize_bs/bs_on_1d_array.md
+        - Binary Search on Answers: dsa/binary_search/categorize_bs/bs_on_answers.md
+
+
+    - Sliding Window:
+      - Home: dsa/sliding_window/index.md
+      - Introduction: dsa/sliding_window/introduction.md
+      - Questions: dsa/sliding_window/question.md
+
 
 
     - Stack & Queue:
-      - Home: 01-dsa/stack_queue/index.md
-      - Stack: 01-dsa/stack_queue/categorize/stack.md
-      - Queue: 01-dsa/stack_queue/categorize/queue.md
+      - Home: dsa/stack_queue/index.md
+      - Stack: dsa/stack_queue/categorize/stack.md
+      - Queue: dsa/stack_queue/categorize/queue.md
+
 
     - Linked List:
-      - Home: 01-dsa/linked_list/index.md
-      - Introduction: 01-dsa/linked_list/introduction.md
+      - Home: dsa/linked_list/index.md
+      - Introduction: dsa/linked_list/introduction.md
       - Types Of Linked List:
-        - Singly Linked List: 01-dsa/linked_list/categorize_linked_list/singly_ll.md
-        - Doubly Linked List: 01-dsa/linked_list/categorize_linked_list/doubly_ll.md
-        - Circular Linked List: 01-dsa/linked_list/categorize_linked_list/circular_ll.md
+        - Singly Linked List: dsa/linked_list/categorize_linked_list/singly_ll.md
+        - Doubly Linked List: dsa/linked_list/categorize_linked_list/doubly_ll.md
+        - Circular Linked List: dsa/linked_list/categorize_linked_list/circular_ll.md
+
 
     - Graph:
-      - Introduction to Graphs: 01-dsa/01-graph/index.md
+      - Introduction to Graphs: dsa/graph/index.md
       - Traversal technique:
-        - DFS: 01-dsa/01-graph/traversal_technique/dfs.md
-        - BFS: 01-dsa/01-graph/traversal_technique/bfs.md
+        - DFS: dsa/graph/traversal_technique/dfs.md
+        - BFS: dsa/graph/traversal_technique/bfs.md
       - Cycle detection:
-        - Detect Cycle in Undirected Graph (BFS & DFS): 01-dsa/01-graph/cycle_detection/in_undirected_using_bfs_dfs.md
-        - Detect Cycle in Directed Graph (BFS & DFS): 01-dsa/01-graph/cycle_detection/in_directed_using_bfs_dfs.md
+        - Detect Cycle in Undirected Graph (BFS & DFS): dsa/graph/cycle_detection/in_undirected_using_bfs_dfs.md
+        - Detect Cycle in Directed Graph (BFS & DFS): dsa/graph/cycle_detection/in_directed_using_bfs_dfs.md
       - Topological & Bipartite:
-        - Topological Sort (BFS & DFS): 01-dsa/01-graph/topological_bipartite/topological.md
-        - Bipartite using (BFS & DFS): 01-dsa/01-graph/topological_bipartite/bipartite.md
+        - Topological Sort (BFS & DFS): dsa/graph/topological_bipartite/topological.md
+        - Bipartite using (BFS & DFS): dsa/graph/topological_bipartite/bipartite.md
       - Important Algos:
-        - Kosaraju's Algorithm: 01-dsa/01-graph/important_algos/kosaraju.md
-        - Dijkstra's Algorithm: 01-dsa/01-graph/important_algos/Dijkstra.md
-        - Bellman Ford Algorithm: 01-dsa/01-graph/important_algos/Bellman_Ford.md
-        - Floyd Warshall Algorithm: 01-dsa/01-graph/important_algos/Floyd_Warshall.md
+        - Kosaraju's Algorithm: dsa/graph/important_algos/kosaraju.md
+        - Dijkstra's Algorithm: dsa/graph/important_algos/Dijkstra.md
+        - Bellman Ford Algorithm: dsa/graph/important_algos/Bellman_Ford.md
+        - Floyd Warshall Algorithm: dsa/graph/important_algos/Floyd_Warshall.md
       - Minimum Spanning Tree:
-        - Introduction(MST): 01-dsa/01-graph/Minimum_Spanning_Tree/intro.md
-        - Prim's Algorithm: 01-dsa/01-graph/Minimum_Spanning_Tree/Prims_Algorithm.md
-        - Disjoint set union (by Rank & size): 01-dsa/01-graph/Minimum_Spanning_Tree/Disjoint_set_union.md
-        - Kruskal's Algorithm: 01-dsa/01-graph/Minimum_Spanning_Tree/Kruskals_Algorithm.md
+        - Introduction(MST): dsa/graph/Minimum_Spanning_Tree/intro.md
+        - Prim's Algorithm: dsa/graph/Minimum_Spanning_Tree/Prims_Algorithm.md
+        - Disjoint set union (by Rank & size): dsa/graph/Minimum_Spanning_Tree/Disjoint_set_union.md
+        - Kruskal's Algorithm: dsa/graph/Minimum_Spanning_Tree/Kruskals_Algorithm.md
       - Important Questions:
-        - questions: 01-dsa/01-graph/questions/index.md
+        - questions: dsa/graph/questions/index.md
+
+
 
     - Dynamic Programming:
-      - Home: 01-dsa/01-dp/index.md
-      - Introduction to DP: 01-dsa/01-dp/introduction.md
+      - Home: dsa/dp/index.md
+      - Introduction to DP: dsa/dp/introduction.md
       - Categorize DP:
-        - 1D_DP: 01-dsa/01-dp/categorize_dp/1d.md
-        - 2D_DP and DP on Grids: 01-dsa/01-dp/categorize_dp/2d.md
-        - 3D_DP: 01-dsa/01-dp/categorize_dp/3d.md
-        - DP on Subsequences/Subset: 01-dsa/01-dp/categorize_dp/subsequences_subset.md
-        - DP on String: 01-dsa/01-dp/categorize_dp/dp_on_string.md
+        - 1D_DP: dsa/dp/categorize_dp/1d.md
+        - 2D_DP and DP on Grids: dsa/dp/categorize_dp/2d.md
+        - 3D_DP: dsa/dp/categorize_dp/3d.md
+        - DP on Subsequences/Subset: dsa/dp/categorize_dp/subsequences_subset.md
+        - DP on String: dsa/dp/categorize_dp/dp_on_string.md
