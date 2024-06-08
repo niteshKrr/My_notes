@@ -1,4 +1,4 @@
-# Binary Search
+# Introduction to Binary Search
 
 
 ## What is Binary Search Algorithm?

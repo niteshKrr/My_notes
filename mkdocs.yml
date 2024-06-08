@@ -133,19 +133,7 @@ nav:
       - Categorize Binary Search:
         - Binary Search on 1D Arrays: dsa/binary_search/categorize_bs/bs_on_1d_array.md
         - Binary Search on Answers: dsa/binary_search/categorize_bs/bs_on_answers.md
-
-
-    - Sliding Window:
-      - Home: dsa/sliding_window/index.md
-      - Introduction: dsa/sliding_window/introduction.md
-      - Questions: dsa/sliding_window/question.md
-
-
-
-    - Stack & Queue:
-      - Home: dsa/stack_queue/index.md
-      - Stack: dsa/stack_queue/categorize/stack.md
-      - Queue: dsa/stack_queue/categorize/queue.md
+    
 
 
     - Linked List:
@@ -157,11 +145,34 @@ nav:
         - Circular Linked List: dsa/linked_list/categorize_linked_list/circular_ll.md
 
 
+    - Stack & Queue:
+      - Home: dsa/stack_queue/index.md
+      - Stack: dsa/stack_queue/categorize/stack.md
+      - Queue: dsa/stack_queue/categorize/queue.md
+
+    
+
+    - Binary Tree:
+      - Home: dsa/binary_tree/index.md
+      - Introduction: dsa/binary_tree/introduction.md
+      - Traversal technique:
+        - Depth-First Search (DFS): dsa/binary_tree/traversal_technique/dfs.md
+        - Breadth-First Search (BFS): dsa/binary_tree/traversal_technique/bfs.md
+    
+
+
+    - Sliding Window:
+      - Home: dsa/sliding_window/index.md
+      - Introduction: dsa/sliding_window/introduction.md
+      - Questions: dsa/sliding_window/question.md
+
+
+
     - Graph:
       - Introduction to Graphs: dsa/graph/index.md
       - Traversal technique:
-        - DFS: dsa/graph/traversal_technique/dfs.md
-        - BFS: dsa/graph/traversal_technique/bfs.md
+        - Depth-First Search (DFS): dsa/graph/traversal_technique/dfs.md
+        - Breadth-First Search (BFS): dsa/graph/traversal_technique/bfs.md
       - Cycle detection:
         - Detect Cycle in Undirected Graph (BFS & DFS): dsa/graph/cycle_detection/in_undirected_using_bfs_dfs.md
         - Detect Cycle in Directed Graph (BFS & DFS): dsa/graph/cycle_detection/in_directed_using_bfs_dfs.md
@@ -185,7 +196,7 @@ nav:
 
     - Dynamic Programming:
       - Home: dsa/dp/index.md
-      - Introduction to DP: dsa/dp/introduction.md
+      - Introduction: dsa/dp/introduction.md
       - Categorize DP:
         - 1D_DP: dsa/dp/categorize_dp/1d.md
         - 2D_DP and DP on Grids: dsa/dp/categorize_dp/2d.md

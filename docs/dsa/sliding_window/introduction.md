@@ -1,4 +1,4 @@
-# Sliding Window Technique
+# Introduction to Sliding Window Technique
 
 ## What is Sliding Window Technique?
 
