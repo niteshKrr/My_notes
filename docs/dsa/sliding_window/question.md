@@ -160,6 +160,116 @@
     ```
 
 
+??? tip "Number of subarray whose sum equals to K"
+
+
+    * <a href="https://leetcode.com/problems/subarray-sum-equals-k/" target="_blank">Subarray Sum Equals K (leetcode)</a>
+
+
+    ---
+
+
+    ```cpp
+
+    class Solution {
+        public:
+        int subarraySum(vector<int>& nums, int k) {
+            
+            int count = 0;
+            int sum = 0;
+            map<int,int> mp;
+
+            for(int i = 0 ; i < nums.size() ; i++){
+                sum += nums[i];
+
+                if(sum == k){
+                    count++;
+                }
+
+                if(mp.find(sum-k) != mp.end()){
+                    count += mp[sum-k];
+                }
+
+                mp[sum]++;
+                
+            }
+
+            return count;
+
+        }
+    };
+
+    ```
+
+
+??? tip "Number of Substrings Containing All Three Characters"
+
+
+    * <a href="https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/" target="_blank">Number of Substrings Containing All Three Characters (leetcode)</a>
+
+    ---
+
+
+    **BruteForce**
+
+
+    ```cpp
+
+
+    class Solution {
+        public:
+        int numberOfSubstrings(string s) {
+            
+            int n = s.length();
+            int count = 0;
+            for(int i = 0; i < n ; i++){
+                vector<int> hash(3,0);
+                for(int j = i ; j < n ; j++){
+                    hash[s[j]-'a'] = 1;
+                    if(hash[0]+hash[1]+hash[2] == 3){
+                        count += n-j;
+                        break;
+                    }
+                }
+            }
+            return count;
+        }
+    };
+
+    ```
+
+    ---
+
+    **Optimal**
+
+
+    ```cpp
+
+
+    class Solution {
+        public:
+        int numberOfSubstrings(string s) {
+            
+            vector<int> last_seen(3,-1);
+            int ans = 0;
+            int j = 0;
+
+            while(j < s.length()){
+
+                last_seen[s[j]-'a'] = j;
+                if(last_seen[0] != -1 && last_seen[1] != -1 && last_seen[2] != -1){
+                    int mini = min(last_seen[0],min(last_seen[1],last_seen[2]));
+                    ans += mini+1;
+                }
+                j++;
+            }
+            return ans;
+        }
+    };
+
+    ```
+
+
 
 
 ---
@@ -178,13 +288,14 @@
     * <a href="https://leetcode.com/problems/max-consecutive-ones-iii/description/" target="_blank">Max Consecutive Ones III  (leetcode)</a>
 
 
+    * <a href="https://leetcode.com/problems/longest-repeating-character-replacement/description/" target="_blank">Longest Repeating Character Replacement (leetcode)</a>
+
+
     * <a href="https://www.geeksforgeeks.org/problems/fruit-into-baskets-1663137462/1" target="_blank">Fruit Into Baskets (gfg)</a>
 
 
+
     * <a href="https://leetcode.com/problems/binary-subarrays-with-sum/description/" target="_blank">Binary Subarrays With Sum  (leetcode)</a>
-
-
-    * <a href="https://leetcode.com/problems/longest-repeating-character-replacement/description/" target="_blank">Longest Repeating Character Replacement (leetcode)</a>
 
 
     * <a href="https://leetcode.com/problems/count-number-of-nice-subarrays/" target="_blank">Count Number of Nice Subarrays  (leetcode)</a>

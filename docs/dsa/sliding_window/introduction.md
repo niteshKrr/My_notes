@@ -124,6 +124,7 @@ The general steps to solve these questions by following below steps:
 
     ```
 
+---
 
 
 ## How to Identify Sliding Window Problems:
@@ -135,5 +136,5 @@ The general steps to solve these questions by following below steps:
 * **Constraints:** N <= 10^6 , If N is the size of the Array/String.
 
 
-
+---
 
