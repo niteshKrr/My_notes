@@ -158,7 +158,8 @@ nav:
       - Traversal technique:
         - Depth-First Search (DFS): dsa/binary_tree/traversal_technique/dfs.md
         - Breadth-First Search (BFS): dsa/binary_tree/traversal_technique/bfs.md
-    
+      - Questions: dsa/binary_tree/questions.md
+
 
 
     - Sliding Window:

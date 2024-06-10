@@ -1,4 +1,4 @@
-## Questions
+# Questions
 
 💡 First try with yourself, if you are unable to do the question then see the solution.
 
