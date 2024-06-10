@@ -162,6 +162,12 @@ nav:
 
 
 
+    - Binary Search Tree:
+      - Home: dsa/binary_search_tree/index.md
+      - Introduction: dsa/binary_search_tree/introduction.md
+
+
+
     - Sliding Window:
       - Home: dsa/sliding_window/index.md
       - Introduction: dsa/sliding_window/introduction.md

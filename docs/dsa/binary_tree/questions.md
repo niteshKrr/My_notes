@@ -331,6 +331,26 @@
     * <a href="https://www.geeksforgeeks.org/problems/children-sum-parent/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=hildren-sum-parent" target="_blank">Check for Children Sum Property in a Binary Tree (gfg)</a>
 
 
+    ---
+
+    This problem's logic is same as **All Nodes Distance K in Binary Tree**
+
+    * <a href="https://www.geeksforgeeks.org/problems/children-sum-parent/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=hildren-sum-parent" target="_blank">Check for Children Sum Property in a Binary Tree (gfg)</a>
+
+    ---
+
+    * <a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/" target="_blank">Construct Binary Tree from Preorder and Inorder Traversal (leetcode)</a>
+
+
+    * <a href="https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/" target="_blank">Construct Binary Tree from Inorder and Postorder Traversal (leetcode)</a>
+
+
+    * <a href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/" target="_blank">Serialize and Deserialize Binary Tree (leetcode)</a>
+
+
+     * <a href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/" target="_blank">Flatten Binary Tree to Linked List (leetcode)</a>
+
+
     
 
 
