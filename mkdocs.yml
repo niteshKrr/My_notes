@@ -133,6 +133,7 @@ nav:
       - Categorize Binary Search:
         - Binary Search on 1D Arrays: dsa/binary_search/categorize_bs/bs_on_1d_array.md
         - Binary Search on Answers: dsa/binary_search/categorize_bs/bs_on_answers.md
+        - Binary Search on 2D Arrays: dsa/binary_search/categorize_bs/bs_on_2d_array.md
     
 
 
@@ -165,7 +166,7 @@ nav:
     - Binary Search Tree:
       - Home: dsa/binary_search_tree/index.md
       - Introduction: dsa/binary_search_tree/introduction.md
-
+      - Questions: dsa/binary_search_tree/questions.md
 
 
     - Sliding Window:

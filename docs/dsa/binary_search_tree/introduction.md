@@ -24,5 +24,61 @@
 
 
 
+## Basic Operations on Binary Search Tree:
+
+
+### 1. Searching a node in BST
+
+Searching in BST means to locate a specific node in the data structure. In Binary search tree, searching a node is easy because of its a specific order.
+
+
+```cpp
+
+Node* search(Node* root, int key){
+
+    if (root == NULL || root->key == key)
+        return root;
+
+    // Key is greater than root's key
+    if (root->key < key)
+        return search(root->right, key);
+
+    // Key is smaller than root's key
+    return search(root->left, key);
+}
+
+
+```
+
+
+### 2. Insert a node into a BST
+
+
+A new key is always inserted at the leaf. Start searching a key from the root till a leaf node. Once a leaf node is found, the new node is added as a child of the leaf node.
+
+
+
+```cpp
+
+Node* search(Node* root, int key){
+
+     if (node == NULL)
+        return new Node(key);
+
+    // Otherwise, recur down the tree
+    if (key < node->key){
+        node->left = insert(node->left, key);
+    }
+    else if (key > node->key){
+        node->right = insert(node->right, key);
+    }
+
+    // Return the node pointer
+    return node;
+}
+
+
+```
+
 
 
