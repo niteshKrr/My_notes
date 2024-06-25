@@ -301,9 +301,6 @@
     * <a href="https://leetcode.com/problems/count-number-of-nice-subarrays/" target="_blank">Count Number of Nice Subarrays  (leetcode)</a>
 
 
-    * <a href="https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/" target="_blank">Number of Substrings Containing All Three Characters (leetcode)</a>
-
-
     * <a href="https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/" target="_blank">Maximum Points You Can Obtain from Cards (leetcode)</a>
 
     
