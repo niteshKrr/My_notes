@@ -1,3 +1,10 @@
+# Questions
+
+
+💡 First try with yourself, if you are unable to solve the question then see the solution.
+
+
+
 ??? tip "DFS & BFS"
 
     * <a href="https://leetcode.com/problems/number-of-provinces/description/" target="_blank">Number of provinces (leetcode)</a>

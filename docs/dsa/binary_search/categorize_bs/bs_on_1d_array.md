@@ -3,7 +3,7 @@
 
 ## Questions
 
-💡 First try with yourself, if you are unable to do the question then see the solution.
+💡 First try with yourself, if you are unable to solve the question then see the solution.
 
 
 * Both **Lower Bound** and **Upper Bound** is very important. 🥇 🥇

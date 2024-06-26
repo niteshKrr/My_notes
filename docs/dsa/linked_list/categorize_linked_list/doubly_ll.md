@@ -80,7 +80,7 @@ A **doubly linked** list or a **two-way** linked list is a more complex type of 
 
 ## Questions
 
-💡 First try with yourself, if you are unable to do the question then see the solution.
+💡 First try with yourself, if you are unable to solve the question then see the solution.
 
 
 ??? tip "Introduction to Doubly Linked List"

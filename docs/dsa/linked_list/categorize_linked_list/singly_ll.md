@@ -77,7 +77,7 @@ It is the **simplest** type of linked list in which **every node** contains some
 
 ## Questions
 
-💡 First try with yourself, if you are unable to do the question then see the solution.
+💡 First try with yourself, if you are unable to solve the question then see the solution.
 
 
 ??? tip "Linked List Insertion"
