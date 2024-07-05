@@ -185,7 +185,8 @@ nav:
 
 
     - Graph:
-      - Introduction to Graphs: dsa/graph/index.md
+      - Home: dsa/graph/index.md
+      - Introduction : dsa/graph/introduction.md
       - Traversal technique:
         - Depth-First Search (DFS): dsa/graph/traversal_technique/dfs.md
         - Breadth-First Search (BFS): dsa/graph/traversal_technique/bfs.md
@@ -205,8 +206,8 @@ nav:
         - Prim's Algorithm: dsa/graph/Minimum_Spanning_Tree/Prims_Algorithm.md
         - Disjoint set union (by Rank & size): dsa/graph/Minimum_Spanning_Tree/Disjoint_set_union.md
         - Kruskal's Algorithm: dsa/graph/Minimum_Spanning_Tree/Kruskals_Algorithm.md
-      - Important Questions:
-        - questions: dsa/graph/questions/index.md
+      - Questions: dsa/graph/question.md
+    
 
 
 
