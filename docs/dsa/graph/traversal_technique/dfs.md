@@ -8,6 +8,13 @@ DFS is a traversal technique which involves the idea of recursion and backtracki
 ---
 
 
+??? tip "Practice question"
+
+    * <a href="https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1" target="_blank">DFS of Graph (gfg)</a>
+
+    ---
+
+
 ```cpp
 
     #include <bits/stdc++.h>

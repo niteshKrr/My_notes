@@ -10,6 +10,13 @@ Breadth First Search (BFS) is a fundamental graph traversal algorithm. It involv
 ---
 
 
+??? tip "Practice question"
+
+    * <a href="https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1" target="_blank">BFS of Graph (gfg)</a>
+
+    ---
+
+
 ```cpp
 
     #include <bits/stdc++.h>

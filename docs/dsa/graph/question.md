@@ -19,13 +19,17 @@
 
     * <a href="https://leetcode.com/problems/number-of-enclaves/description/" target="_blank">Number of Enclaves (leetcode)</a>
 
-    * <a href="https://leetcode.com/problems/word-ladder/description/" target="_blank">Word ladder - 1 (leetcode)</a>
+    * <a href="https://leetcode.com/problems/word-ladder/description/" target="_blank">Word ladder-1 (leetcode)</a>
 
-    * <a href="https://leetcode.com/problems/word-ladder-ii/description/" target="_blank">Word ladder - 2 (leetcode)</a>
+    * <a href="https://leetcode.com/problems/word-ladder-ii/description/" target="_blank">Word ladder-2 (leetcode)</a>
+
+    * <a href="https://leetcode.com/problems/is-graph-bipartite/description/" target="_blank">Is Graph Bipartite? (leetcode)</a>
 
 ---
 
 ??? tip "Topo Sort"
+
+    * <a href="https://www.geeksforgeeks.org/problems/topological-sort/1" target="_blank">Topological sort (gfg)</a>
 
     * <a href="https://leetcode.com/problems/course-schedule/description/" target="_blank">Course Schedule - I (leetcode)</a>
 
@@ -56,6 +60,8 @@
 
     * <a href="https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/description/" target="_blank">Number of ways to arrive at destination (leetcode)</a>
 
+    * <a href="https://www.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-multiplications-to-reach-end" target="_blank">Minimum Multiplications to reach End (gfg)</a>
+
     * <a href="https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1" target="_blank">Bellman Ford Algorithm (gfg)</a>
 
     * <a href="https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1" target="_blank">Floyd Warshal Algorithm (gfg)</a>
@@ -67,11 +73,13 @@
 
 ??? tip "MinimumSpanningTree/Disjoint Set and Problems"
 
-    * <a href="https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1" target="_blank">Minimum Spanning Tree (gfg)</a>
+    * <a href="https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1" target="_blank">Minimum Spanning Tree [ Prim's/Kruskal's Algorithm ] (gfg)</a>
 
     * <a href="https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=disjoint-set-union-find" target="_blank">Disjoint Set [Union by Rank & size] (gfg)</a>
 
     * <a href="https://leetcode.com/problems/number-of-operations-to-make-network-connected/description/" target="_blank">Number of operations to make network connected (leetcode)</a>
+
+    * <a href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/" target="_blank">Most Stones Removed with Same Row or Column (leetcode)</a>
 
     * <a href="https://leetcode.com/problems/accounts-merge/description/" target="_blank">Accounts merge (leetcode)</a>
 

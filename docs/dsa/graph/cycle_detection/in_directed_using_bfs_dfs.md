@@ -1,4 +1,6 @@
-## Detect Cycle in an directed Graph using BFS
+# Detect Cycle In Directed Graph
+
+## Detect Cycle in directed Graph using BFS
 
 #### Intuition:
 
@@ -125,6 +127,24 @@ O(V+E), where V = no. of nodes and E = no. of edges. This is a simple DFS algori
 
 #### Space Complexity
 
-O(N) + O(N) + 0(N) ~ O(3N), 0(N) visited array, 0(N) for dfs_visited array and O(N) Space for recursive stack space, .
+O(N) + O(N) + 0(N) ~ O(3N), 0(N) visited array, 0(N) for dfs_visited array and O(N) Space for recursive stack space.
+
+
+---
+
+
+## Questions
+
+
+💡 First try with yourself, if you are unable to solve the question then see the solution.
+
+
+??? tip "Directed Graph Cycle"
+
+    * <a href="https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1" target="_blank">Directed Graph Cycle (gfg)</a>
+
+
+
+💯 🔥 🚀
 
 

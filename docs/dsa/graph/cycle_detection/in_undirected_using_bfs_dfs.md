@@ -1,3 +1,5 @@
+# Detect Cycle In Undirected Graph
+
 ## Detect Cycle in an Undirected Graph using BFS
 
 The intuition is that we start from a node, and start doing BFS level-wise, if somewhere down the line, we visit a single node twice, it means we came via two paths to end up at the same node. It implies there is a cycle in the graph because we know that we start from different directions but can arrive at the same node only if the graph is connected or contains a cycle, otherwise we would never come to the same node again.
@@ -139,3 +141,21 @@ O(N + 2E) + O(N), Where N = Nodes, 2E is for total degrees as we traverse all ad
 #### Space Complexity
 
 O(N) + O(N) ~ O(N), Space for recursive stack space and visited array.
+
+
+
+---
+
+## Questions
+
+
+💡 First try with yourself, if you are unable to solve the question then see the solution.
+
+
+??? tip "Undirected Graph Cycle"
+
+    * <a href="https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph" target="_blank">Undirected Graph Cycle (gfg)</a>
+
+
+
+💯 🔥 🚀
