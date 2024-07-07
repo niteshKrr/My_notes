@@ -50,6 +50,8 @@
 
     * <a href="https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1" target="_blank">Djisktra's Algorithm (gfg)</a>
 
+    * <a href="https://www.geeksforgeeks.org/problems/shortest-path-in-weighted-undirected-graph/1" target="_blank">Shortest Path in Weighted undirected graph (gfg)</a>
+
     * <a href="https://leetcode.com/problems/shortest-path-in-binary-matrix/description/" target="_blank">Shortest path in a binary matrix (leetcode)</a>
 
     * <a href="https://leetcode.com/problems/path-with-minimum-effort/description/" target="_blank">Path with minimum effort (leetcode)</a>
