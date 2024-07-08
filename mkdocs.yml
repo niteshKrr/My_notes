@@ -127,6 +127,7 @@ nav:
   - DSA:
     - Welcome to DSA: dsa/index.md
 
+
     - Binary Search:
       - Home: dsa/binary_search/index.md
       - Introduction: dsa/binary_search/introduction.md
@@ -144,6 +145,7 @@ nav:
         - Singly Linked List: dsa/linked_list/categorize_linked_list/singly_ll.md
         - Doubly Linked List: dsa/linked_list/categorize_linked_list/doubly_ll.md
         - Circular Linked List: dsa/linked_list/categorize_linked_list/circular_ll.md
+
 
 
     - Stack & Queue:
@@ -169,6 +171,7 @@ nav:
       - Questions: dsa/binary_search_tree/questions.md
 
 
+
     - Sliding Window:
       - Home: dsa/sliding_window/index.md
       - Introduction: dsa/sliding_window/introduction.md
@@ -182,6 +185,7 @@ nav:
       - Heap Sort: dsa/Heaps_PriorityQueues/heap_sort.md
       - Priority Queue: dsa/Heaps_PriorityQueues/priority_queue.md
       - Questions: dsa/Heaps_PriorityQueues/question.md
+
 
 
     - Graph:
@@ -210,7 +214,6 @@ nav:
     
 
 
-
     - Dynamic Programming:
       - Home: dsa/dp/index.md
       - Introduction: dsa/dp/introduction.md
@@ -220,3 +223,17 @@ nav:
         - 3D_DP: dsa/dp/categorize_dp/3d.md
         - DP on Subsequences/Subset: dsa/dp/categorize_dp/subsequences_subset.md
         - DP on String: dsa/dp/categorize_dp/dp_on_string.md
+
+
+
+
+  - System Design:
+    - Welcome to System Design: system_design/index.md
+
+
+    - Scalability:
+      - Home: system_design/scalability/index.md
+      - Introduction: system_design/scalability/introduction.md
+      - Horizontal Scaling: system_design/scalability/horizontal.md
+      - Vertical Scaling: system_design/scalability/vertical.md
+     
