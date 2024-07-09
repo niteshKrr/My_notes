@@ -236,4 +236,12 @@ nav:
       - Introduction: system_design/scalability/introduction.md
       - Horizontal Scaling: system_design/scalability/horizontal.md
       - Vertical Scaling: system_design/scalability/vertical.md
+
+
+    
+    - Load Balancer:
+      - Home: system_design/load_balancer/index.md
+      - Introduction: system_design/load_balancer/introduction.md
+      - Reverse Proxy: system_design/load_balancer/reverse_proxy.md
+      - Consistent Hashing: system_design/load_balancer/consistent_hashing.md
      
