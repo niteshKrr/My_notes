@@ -244,4 +244,11 @@ nav:
       - Introduction: system_design/load_balancer/introduction.md
       - Reverse Proxy: system_design/load_balancer/reverse_proxy.md
       - Consistent Hashing: system_design/load_balancer/consistent_hashing.md
-     
+    
+
+
+    - Architecture of a System:
+      - Home: system_design/architecture/index.md
+      - Introduction: system_design/architecture/introduction.md
+      - Monolithic Architecture: system_design/architecture/monolithic.md
+      - Microservices Architecture: system_design/architecture/microservices.md
