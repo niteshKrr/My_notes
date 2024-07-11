@@ -227,6 +227,12 @@ nav:
 
 
 
+  - DBMS:
+    - Welcome to DBMS: dbms/index.md
+
+
+
+
   - System Design:
     - Welcome to System Design: system_design/index.md
 
