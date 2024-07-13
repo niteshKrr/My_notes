@@ -229,6 +229,18 @@ nav:
 
   - DBMS:
     - Welcome to DBMS: dbms/index.md
+    - Introduction: dbms/introduction.md
+
+
+
+    - DBMS Architecture:
+      - Home: dbms/dbms_architecture/index.md
+      - Introduction: dbms/dbms_architecture/introduction.md
+      - Types of DBMS Architecture:
+        - One_Tier_Architecture: dbms/dbms_architecture/types_of_architecture/One_Tier_Architecture.md
+        - Two_Tier_Architecture: dbms/dbms_architecture/types_of_architecture/Two_Tier_Architecture.md
+        - Three_Tier_Architecture: dbms/dbms_architecture/types_of_architecture/Three_Tier_Architecture.md
+      - Three Level Architecture: dbms/dbms_architecture/three_level_architecture.md
 
 
 
