@@ -134,6 +134,9 @@ nav:
       - Sorting Algorithms:
         - Selection Sort: dsa/sorting/sorting_techniques/selection_sort.md
         - Bubble Sort: dsa/sorting/sorting_techniques/bubble_sort.md
+        - Insertion Sort: dsa/sorting/sorting_techniques/insertion_sort.md
+        - Merge Sort: dsa/sorting/sorting_techniques/merge_sort.md
+        - Quick Sort: dsa/sorting/sorting_techniques/quick_sort.md
 
 
 
