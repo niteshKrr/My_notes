@@ -128,6 +128,15 @@ nav:
     - Welcome to DSA: dsa/index.md
 
 
+    - Sorting:
+      - Home: dsa/sorting/index.md
+      - Introduction: dsa/sorting/introduction.md
+      - Sorting Algorithms:
+        - Selection Sort: dsa/sorting/sorting_techniques/selection_sort.md
+        - Bubble Sort: dsa/sorting/sorting_techniques/bubble_sort.md
+
+
+
     - Binary Search:
       - Home: dsa/binary_search/index.md
       - Introduction: dsa/binary_search/introduction.md
