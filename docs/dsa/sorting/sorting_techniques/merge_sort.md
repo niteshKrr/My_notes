@@ -121,6 +121,14 @@ Here’s a step-by-step explanation of how merge sort works:
 **Code**
 
 
+??? tip "Practice question"
+
+    * <a href="https://www.geeksforgeeks.org/problems/merge-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=merge-sort" target="_blank">Merge Sort (gfg)</a>
+
+    ---
+
+
+
 ```cpp
 
 #include <bits/stdc++.h>

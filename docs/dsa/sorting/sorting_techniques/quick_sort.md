@@ -129,6 +129,13 @@ To summarize, the main intention of this process is to place the pivot, after ea
 **Code**
 
 
+??? tip "Practice question"
+
+    * <a href="https://www.geeksforgeeks.org/problems/quick-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=quick-sort" target="_blank">Quick Sort (gfg)</a>
+
+    ---
+
+
 ```cpp
 
 #include <bits/stdc++.h>

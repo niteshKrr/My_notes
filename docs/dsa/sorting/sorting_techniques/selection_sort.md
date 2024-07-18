@@ -21,6 +21,15 @@ The loop will run forward from 0 to n-1. The value i = 0 means the range is from
 **Note:** Here, after each iteration, the array becomes sorted up to the first index of the range. That is why the starting index of the range increases by 1 after each iteration. This increment is achieved by the outer loop and the starting index is represented by variable i in the following code. And the inner loop(**i.e. j**) helps to find the minimum element of the range **[i…..n-1].**
 
 
+---
+
+??? tip "Practice question"
+
+    * <a href="https://www.geeksforgeeks.org/problems/selection-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=selection-sort" target="_blank">Selection Sort (gfg)</a>
+
+    ---
+
+
 
 ```cpp
 
