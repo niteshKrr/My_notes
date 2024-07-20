@@ -256,6 +256,22 @@ nav:
 
 
 
+    - Entity Relationship Model:
+      - Home: dbms/entity_relationship/index.md
+      - Introduction: dbms/entity_relationship/introduction.md
+      - Relationships: dbms/entity_relationship/relationships.md
+      - Extended ER Model: dbms/entity_relationship/eer_model.md
+      - Relational Model: dbms/entity_relationship/relational_model.md
+      - ER Model to Relational Model: dbms/entity_relationship/er_to_relational.md
+
+
+
+    - Structured Query Language(SQL):
+      - Home: dbms/sql_/index.md
+      - Introduction: dbms/sql_/introduction.md
+
+
+
 
   - System Design:
     - Welcome to System Design: system_design/index.md
