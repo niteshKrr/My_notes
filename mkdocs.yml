@@ -270,6 +270,17 @@ nav:
       - Home: dbms/sql_/index.md
       - Introduction: dbms/sql_/introduction.md
 
+    
+
+    - Normalization:
+      - Home: dbms/normalization/index.md
+      - Introduction: dbms/normalization/introduction.md
+      - Normal Forms: 
+        - First Normal Form (1NF): dbms/normalization/normal_forms/first_normal_form.md
+        - Second Normal Form (2NF): dbms/normalization/normal_forms/second_normal_form.md
+        - Third Normal Form (3NF): dbms/normalization/normal_forms/third_normal_form.md
+        - Boyce-Codd Normal Form (BCNF): dbms/normalization/normal_forms/bcnf.md
+
 
 
 

@@ -8,7 +8,7 @@
     ``` c
     #include <stdio.h>
 
-    int main(void) {
+    int main() {
       printf("Hello world!\n");
       return 0;
     }
@@ -20,7 +20,7 @@
     #include <iostream>
     using namespace std;
 
-    int main(void) {
+    int main() {
       cout << "Hello world!" <<endl;
       return 0;
     }
