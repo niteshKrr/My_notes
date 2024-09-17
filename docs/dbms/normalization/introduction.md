@@ -15,11 +15,29 @@
 Normalization is used to reduce data redundancy. It provides a method to remove the following anomalies from the database and bring it to a more consistent state:
 
 
-* **Insertion anomalies :-** This occurs when we are not able to insert data into a database because some attributes may be missing at the time of insertion.
+![loading...](../../images/dbms/normalization/intro.png)
 
-* **Updation anomalies :-** This occurs when the same data items are repeated with the same values and are not linked to each other.
 
-* **Deletion anomalies :-** This occurs when deleting one part of the data deletes the other necessary information from the database.
+**Updation / Update Anomaly**
+
+In the above table, if Shivani changes her branch from Computer Science to Electronics, then we will have to update all the rows. If we miss any row, then Shivani will have more than one branch, which will create the update anomaly in the table.
+
+
+**Insertion Anomaly**
+
+If we add a new row for student Ankit who is not a part of any club, we cannot insert the row into the table as we cannot insert null in the column of stu_club. This is called insertion anomaly.
+
+
+**Deletion Anomaly**
+
+If we remove the photography club from the college, then we will have to delete its row from the table. But it will also delete the table of Gopal and his details. So, this is called deletion anomaly and it will make the database inconsistent.
+
+
+
+!!! quote ""
+    - Due to these anomalies, **DB size increases, and DB performance slows down.**
+    - To rectify these anomalies, we use **`Normalization`**.
+
 
 
 

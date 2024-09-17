@@ -283,6 +283,12 @@ nav:
 
 
 
+    - Transactions & ACID properties:
+      - Home: dbms/transaction_and_acid/index.md
+      - Transaction: dbms/transaction_and_acid/transaction.md
+      - ACID properties: dbms/transaction_and_acid/acid.md
+
+
 
   - System Design:
     - Welcome to System Design: system_design/index.md
