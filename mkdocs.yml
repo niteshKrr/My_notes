@@ -287,6 +287,16 @@ nav:
       - Home: dbms/transaction_and_acid/index.md
       - Transaction: dbms/transaction_and_acid/transaction.md
       - ACID properties: dbms/transaction_and_acid/acid.md
+      - Implement atomicity & durability in transactions: dbms/transaction_and_acid/implement_atomicity_and_durability.md
+
+
+
+    - Indexing in DBMS:
+      - Home: dbms/indexing/index.md
+      - Introduction: dbms/indexing/introduction.md
+      - Types of Indexes: dbms/indexing/types_of_indexes.md
+
+
 
 
 
