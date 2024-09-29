@@ -287,6 +287,7 @@ nav:
       - Home: dbms/transaction_and_acid/index.md
       - Transaction: dbms/transaction_and_acid/transaction.md
       - ACID properties: dbms/transaction_and_acid/acid.md
+      - ACID vs BASE: dbms/transaction_and_acid/acid_vs_base.md
       - Implement atomicity & durability in transactions: dbms/transaction_and_acid/implement_atomicity_and_durability.md
 
 
@@ -296,6 +297,27 @@ nav:
       - Introduction: dbms/indexing/introduction.md
       - Types of Indexes: dbms/indexing/types_of_indexes.md
 
+
+
+    - NoSQL in DBMS:
+      - Home: dbms/no_sql/index.md
+      - Introduction: dbms/no_sql/introduction.md
+      - SQL Vs NoSQL: dbms/no_sql/sql_vs_nosql.md
+
+
+
+    - Types of Databases:
+      - Home: dbms/types_of_db/index.md
+      - Introduction: dbms/types_of_db/introduction.md
+      - DB's types:
+        - Relational Databases: dbms/types_of_db/db_types/relational.md
+        - Object Oriented Databases: dbms/types_of_db/db_types/object_oriented.md
+        - NoSQL Databases: dbms/types_of_db/db_types/no_sql.md
+        - Hierarchical Databases: dbms/types_of_db/db_types/hierarchical.md
+        - Network Databases: dbms/types_of_db/db_types/network.md
+        - Cloud Databases: dbms/types_of_db/db_types/cloud.md
+        - Centralized Databases: dbms/types_of_db/db_types/centralized.md
+      
 
 
 
