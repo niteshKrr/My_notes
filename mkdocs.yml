@@ -317,7 +317,30 @@ nav:
         - Network Databases: dbms/types_of_db/db_types/network.md
         - Cloud Databases: dbms/types_of_db/db_types/cloud.md
         - Centralized Databases: dbms/types_of_db/db_types/centralized.md
-      
+    
+
+
+    - Scaling Databases:
+      - Home: dbms/scaling_db/index.md
+      - Introduction: dbms/scaling_db/introduction.md
+      - Sharding & Replication: dbms/scaling_db/sharding_replication.md
+      - Clustering & Partitioning: dbms/scaling_db/clustering_partitioning.md
+      - DB Scaling pattern: dbms/scaling_db/db_scaling_pattern.md
+
+
+
+    - CAP Theorem in DBMS:
+      - Home: dbms/cap_theorem/index.md
+      - Introduction: dbms/cap_theorem/introduction.md
+      - Theorem: dbms/cap_theorem/theorem.md
+
+
+
+    - Master-Slave Architecture:
+      - Home: dbms/master_slave_architecture/index.md
+      - Master-Slave DB: dbms/master_slave_architecture/master_slave_db.md
+
+
 
 
 
