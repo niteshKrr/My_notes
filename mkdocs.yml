@@ -345,6 +345,14 @@ nav:
 
 
 
+  - Operating System:
+    - Welcome to Operating System: operating_system/index.md
+    - Introduction: operating_system/introduction.md
+
+
+
+
+
   - System Design:
     - Welcome to System Design: system_design/index.md
 
