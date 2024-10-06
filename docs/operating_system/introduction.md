@@ -31,4 +31,13 @@ The term “**application software**” refers to software that performs specifi
 ![loading...](../images/operating_system/intro.png)
 
 
-The operating system provides the means for proper use of the resources in the operation of the computer system.
+`The operating system provides the means for proper use of the resources in the operation of the computer system.`
+
+
+## OS goals
+
+!!! success ""
+
+    * **Maximum CPU utilization**
+    * **Less process starvation**
+    * **Higher priority job execution**

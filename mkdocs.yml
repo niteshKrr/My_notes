@@ -351,6 +351,20 @@ nav:
 
 
 
+    - Types Of Operating Systems:
+      - Home: operating_system/types_of_os/index.md
+      - Introduction: operating_system/types_of_os/introduction.md
+      - All types: 
+        - Single Process OS: operating_system/types_of_os/os_types/single_process.md
+        - Batch Operating System: operating_system/types_of_os/os_types/batch_os.md
+        - Multi-Programming OS: operating_system/types_of_os/os_types/multi_programming.md
+        - Multi-Tasking OS: operating_system/types_of_os/os_types/multi_tasking.md
+        - Multi-Processing OS: operating_system/types_of_os/os_types/multi_processing.md
+        - Distributed Operating System: operating_system/types_of_os/os_types/distributed.md
+        - Real-Time Operating System: operating_system/types_of_os/os_types/real_time.md
+      - Multi-Tasking vs Multi-Threading: operating_system/types_of_os/multi_tasking_vs_multi_threading.md
+
+
 
 
   - System Design:
