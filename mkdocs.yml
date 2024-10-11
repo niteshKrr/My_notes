@@ -367,6 +367,15 @@ nav:
 
 
 
+    - Components & System Calls:
+      - Home: operating_system/components_and_system_call/index.md
+      - Components of OS: operating_system/components_and_system_call/components_of_os.md
+      - System Calls: operating_system/components_and_system_call/system_calls.md
+
+
+
+
+
   - System Design:
     - Welcome to System Design: system_design/index.md
 
