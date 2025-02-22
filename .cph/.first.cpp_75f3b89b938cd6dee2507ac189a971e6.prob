@@ -1,1 +1,0 @@
-{"name":"Local: first","url":"/home/kid01/My_notes/first.cpp","tests":[{"id":1719035332831,"input":"1\n5 3\n1\n2\n8\n4\n9","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/kid01/My_notes/first.cpp","group":"local","local":true}
