@@ -239,6 +239,7 @@ nav:
 
 
 
+
   - DBMS:
     - Welcome to DBMS: dbms/index.md
     - Introduction: dbms/introduction.md
@@ -344,7 +345,6 @@ nav:
 
 
 
-
   - Operating System:
     - Welcome to Operating System: operating_system/index.md
     - Introduction: operating_system/introduction.md
@@ -366,7 +366,6 @@ nav:
 
 
 
-
     - Components & System Calls:
       - Home: operating_system/components_and_system_call/index.md
       - Components of OS: operating_system/components_and_system_call/components_of_os.md
@@ -374,10 +373,41 @@ nav:
 
 
 
+    - Important to Know:
+      - Home: operating_system/important_to_know/index.md
+      - How OS boots up: operating_system/important_to_know/how_os_boots_up.md
+      - 32 Bit Vs 64 Bit: operating_system/important_to_know/_32bit_vs_64bit.md
+      - Different storage devices: operating_system/important_to_know/different_storage_devices.md
+
+
+
+    - Process Management:
+      - Home: operating_system/process_management/index.md
+      - Introduction: operating_system/process_management/introduction.md
+      - Process State & Process Queue: operating_system/process_management/process_state_process_queue.md
+      - Swapping, Context Switching, Orphan & Zombie Process: operating_system/process_management/Swapping_ContextSwitching_Orphan_Zombie_Process.md
+      - Process Scheduling:
+        - Introduction: operating_system/process_management/process_scheduling/introduction.md
+        - FCFS & Convoy Effect: operating_system/process_management/process_scheduling/fcfs_convoy_effect.md
+        - SJF, Priority Scheduling & Round Robin: operating_system/process_management/process_scheduling/SJF_PriorityScheduling_Round_Robin.md
+        - Multi-Level Queue & Multi-Level Feedback Queue: operating_system/process_management/process_scheduling/Multi-Level_Queue_Multi-Level_Feedback_Queue.md
+        - Comparison b/w different scheduling algorithms: operating_system/process_management/process_scheduling/Comparison_between_different_scheduling_algorithms.md
+
+
+
+    - Concurrency & Deadlocks:
+      - Home: operating_system/concurrency_and_deadlocks/index.md
+      - Introduction to Concurrency: operating_system/concurrency_and_deadlocks/Introduction_to_Concurrency.md
+      - Critical section & Race condition: operating_system/concurrency_and_deadlocks/Critical_section_Race_condition.md
+      - Conditional variable & Semaphore: operating_system/concurrency_and_deadlocks/Conditional_variable_Semaphore.md
+
+
+
 
 
   - System Design:
     - Welcome to System Design: system_design/index.md
+
 
 
     - Scalability:
@@ -401,3 +431,4 @@ nav:
       - Introduction: system_design/architecture/introduction.md
       - Monolithic Architecture: system_design/architecture/monolithic.md
       - Microservices Architecture: system_design/architecture/microservices.md
+

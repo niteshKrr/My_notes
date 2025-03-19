@@ -1,4 +1,4 @@
-# System Calls 📞☎️
+# System Calls
 
 !!! tip "How do apps interact with Kernel?"
     **using system calls**.
