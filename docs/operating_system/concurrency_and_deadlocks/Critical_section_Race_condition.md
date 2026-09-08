@@ -41,24 +41,22 @@
 
 ---
 
-## Can we use a simple flag variable to solve the problem of race condition?
+## We generally have the following solutions to a critical section problems 
 
-- **No**
+### :arrow_right: For Two Process Solution
 
-???+ info "Explanation"
-    ![loading...](../../images/operating_system/concurrency_and_deadlocks/single-flag-critical-section.png)
+### 1. Using boolean variable turn
 
-    - Let's say, we have a flag `turn`, and two threads are executing.
-    - For thread-1, it will be in `while loop until turn is not false (0)`; and for thread-2, it will be in `while loop until turn is not true (1)`.
-    - Once while loop breaks, it will go into critical section, and once done with critical section, it will modify the flag, so that other threads can enter in critical section.
-    - So, **mutual exclusion** is achieved.
-    - But, the problem is, which thread will execute first, depends on the initial value of **`turn` flag**. If it is false by default, thread-1 will execute first, and if thread-2 reaches first, it will still have to wait until thread-1 is done.
-    - So, **second-condition of being a solution is not full-filled**.
-    - That's why, `single flag can't be used as solution for critical section`. 
+![loading...](../../images/operating_system/concurrency_and_deadlocks/boolean%20variable%20turn.png)
 
----
+### 2. Using boolean array flag
 
-## Peterson’s solution
+![loading...](../../images/operating_system/concurrency_and_deadlocks/boolean%20array%20flag.png)    
+
+
+We are unable to solve the critical section problem for two processes using only a **boolean variable turn** or a **boolean array flag**. Only **Peterson's solution** solves the critical section problem for two processes by **combining both**.
+
+### 3. Peterson’s solution
 
 - **Peterson's solution can be used to avoid race condition for only 2 processes/ threads**.
 
@@ -67,7 +65,7 @@
 
 
     - We create a bool `turn`, and a boolean array `flag` of size 2.
-    - **flag** denotes, if \(i^{th}\) thread/process can enter critical section or not.
+    - **flag** denotes, (i^th) thread/process can enter in to the critical section or not.
 
 ---
 
