@@ -43,7 +43,7 @@
 
 ## We generally have the following solutions to a critical section problems 
 
-### :arrow_right: For Two Process Solution
+### :arrow_right: For Two Processes Solutions
 
 ### 1. Using boolean variable turn
 
@@ -67,6 +67,22 @@ We are unable to solve the critical section problem for two processes using only
     - We create a bool `turn`, and a boolean array `flag` of size 2.
     - **flag** denotes, (i^th) thread/process can enter in to the critical section or not.
 
+
+
+### :arrow_right: For `n` Processes Solution
+
+**Semaphores** are used to solve the Critical Section Problem for `n` processes.
+
+- A **binary semaphore** can be used to provide mutual exclusion for `n` processes. 
+- A **counting semaphore** can allow a limited number of processes to access a resource simultaneously.
+
+**💯 Important problems solved using Semaphores :-**
+
+    1. Critical Section Problem
+    2. Producer-Consumer Problem
+    3. Readers-Writers Problem
+    4. Dining Philosophers Problem
+    5. Sleeping Barber Problem
 ---
 
 ## Mutex/Locks

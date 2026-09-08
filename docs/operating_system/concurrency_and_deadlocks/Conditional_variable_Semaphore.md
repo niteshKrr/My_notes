@@ -38,6 +38,39 @@ To account for this, some new methods were introduced like:
 
 ## Semaphores
 
+??? bug "About semaphores"
+
+    - Semaphores are integer variables used to solve the critical section problem through two atomic operations:- 
+        - **wait**
+        - **signal**
+    - They provide a synchronization mechanism that allows processes to coordinate access to shared resources safely.
+
+    ---
+
+    - Semaphores use two fundamental operations that must be executed atomically (without interruption):
+
+    **Wait Operation** :
+    - The wait operation decrements the value of its argument S if it is positive. If S is zero or negative, the process blocks until the semaphore becomes positive.
+
+    ``` c
+        wait(S)
+        {
+            while (S <= 0);
+            S--;
+        }
+    ```
+
+    **Signal Operation** :
+    - The signal operation increments the value of its argument S, potentially waking up a waiting process.
+
+    ``` c
+        signal(S)
+        {
+            S++;
+        }
+    ```
+
+
 - Suppose we have a printer that itself has 3 sub-printers, and hence it can print 3 documents at once, so it can execute 3 process at once.
 - Semaphore is a synchronization method, in which we have a number which is equal to the number of resources.
 - Multiple threads can go and execute `critical section` concurrently.
@@ -45,7 +78,7 @@ To account for this, some new methods were introduced like:
 
 ![loading...](../../images/operating_system/concurrency_and_deadlocks/Types-of-Semaphores.png)
 
-- Binary semaphore: value can be 0 or 1.
+- Binary semaphore :- value can be 0 or 1.
     - Aka, **mutex locks**
 - Counting semaphore
     - Can range over an unrestricted domain.
