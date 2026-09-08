@@ -31,7 +31,7 @@
     - **Turn-around time (TAT):** Time taken from first time process enters ready state till it terminates. **(CT - AT)**
     -  **Wait time (WT):** Time process spends waiting for CPU. (WT = TAT – BT)
     -  **Response time:** Time duration between process getting into ready queue and process getting CPU for the first time.
-    -  **Completion Time (CT):** Time taken till process gets terminated.
+    -  **Completion Time (CT):** Time at which process finishes its execution.
 
 ---
 
